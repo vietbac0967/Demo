@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230,230,250);
+}
+.head{
+    background-color: rgb(58, 84,149);
+    color: #f1f1f1;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+   
+}
+input[type = "button"]{
+    margin: 31px;
+    background-color: rgb(99,123,173);
+}
+.sec{
+    width: 30%;
+    float: left;
+}
+img{
+    margin-top: 100px;
+    width: 100%;
+}
+.asd{
+    margin-top: 100px;
+    padding-left: 20px;
+    width: 60%;
+    float: left;
+    position: relative;
+}
+.asd h1{
+    margin-top: 10px;
+    padding: 10px;
+}
+.asd h4{
+    padding: 10px;
+}
+.foot{
+    float: left;
+    width: 100%;
+}
+button:last-child{
+    background-color: rgb(60,179,113);
+    color: #f1f1f1;
+}

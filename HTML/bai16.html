@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/jquery-3.6.0.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+
+    <title>Document</title>
+    <script src="../JS/bai16.js"></script>
+</head>
+<body>
+    <h1 class="text-center">ĐĂNG KÝ TÀI KHOẢN</h1>
+    <form action="">
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Tên đăng nhập:</label>
+            <div class="col-md-7">
+                <input type="text" id="txtTenDN" placeholder="Nhập vào tên đăng nhâp" class="form-control" onblur="kiemTraTenDN()">
+                <span class="text-danger" id="errTenDN">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Mật khẩu:</label>
+            <div class="col-md-7">
+                <input type="password" placeholder="Nhập vào mật khẩu" class="form-control" id="txtPW" onblur=" KTMatKhau()">
+                <span class="text-danger" id="errPW">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Nhập lại mật khẩu:</label>
+            <div class="col-md-7">
+                <input type="text" placeholder="Nhập vào xác nhận mật khẩu" class="form-control" id="txtlap">
+                <span class="text-danger" id="errlap">*</span>
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-center">THÔNG TIN CÁ NHÂN</h3>
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Họ và tên:</label>
+            <div class="col-md-7">
+                <input type="text" placeholder="Nhập vào họ tên (bắt buộc nhập)" class="form-control">
+                <span class="text-danger">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Ngày sinh:</label>
+            <div class="col-md-2">
+                <input type="date" class="form-control">
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Giới tính</label>
+            <div class="col-md-7">
+               <input type="radio" value="Nam" name="sex">Nam
+               <input type="radio" value="Nu" name="sex">Nữ
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Địa chỉ:</label>
+            <div class="col-md-7">
+                <input type="text" placeholder="Nhập vào địa chỉ" class="form-control">
+                <span class="text-danger">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Tên đăng nhập</label>
+            <div class="col-md-7">
+                <input type="tel" placeholder="Nhập vào số điện thoại(9-10 số)" class="form-control">
+                <span class="text-danger">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right">Email:</label>
+            <div class="col-md-7">
+                <input type="email" placeholder="Nhập vào Email cá nhân theo dạng ten@tencongty.com" class="form-control">
+                <span class="text-danger">*</span>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row form-group">
+            <label for="" class="col-md-4 text-right"></label>
+            <div class="col-md-7">
+               <input type="button" value="Đăng ký" class="btn btn-dark">
+               <input type="button" value="Hủy" class="btn btn-dark">
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
